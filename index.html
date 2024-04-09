@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Sketch Pad</title>
+        <link rel="stylesheet" href="Etch-a-sketch.css">
+    </head>
+    <body>
+    <div class="outercontainer">
+        <div class="heading"> 
+            <h1 class="one">Etch a </h1>
+            <h1 class="two"> &nbsp;Sketch</h1>
+        </div>
+        <div class="info">Create your pixel arts !</div>
+        <div class="container">
+            <div class="vertical">
+                <h1>Control Panel</h1>
+                <div class="drop-container">
+                    <p>Select grid size</p>
+                    <select class="dropdown" id="dropdown">
+                        <option>16</option>
+                        <option>32</option>
+                        <option>48</option>
+                        <option>64</option>
+                        <option>80</option>
+                        <option>100</option>
+                    </select>
+                </div>
+                <button class="grid">Grid</button>
+                <button class="reset">Reset</button>
+                <div class="colorpick">
+                    <p>Select the color:</p>
+                    <input type="color" id="colorPicker">
+                </div>
+                <div class="erase">
+                    <div >( Hold the right mouse</div>
+                    <div> button to ERASE )</div>
+                </div>
+            </div>
+            <div class="pl"><div class="playground"></div></div>
+        </div>
+    </div>
+        <script src="Etch-a-sketch.js"></script>
+    </body>
+</html>
