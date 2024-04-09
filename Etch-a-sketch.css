@@ -1,0 +1,173 @@
+body
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: rgba(0, 0, 0, 0.901);
+    color:white;
+}
+.innerdiv
+{
+    border: 1px solid transparent;
+    
+}
+.outerdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playground
+{
+    
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+}
+.pl
+{
+    border: solid cadetblue 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+}
+.colorpick,.drop-container
+{
+    border-radius: 30px;
+    border: solid #DFFF00 1px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.outercontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.vertical
+{
+
+height:500px;
+    padding:50px;
+    border:solid #DFFF00 3px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column ;
+    margin:20px;
+    
+}
+.grid,.reset
+{
+    height: 50px;
+    font-weight: 900;
+    border-radius: 30px;
+    width:17    0px;
+    background-color:rgba(12, 1, 1, 0);
+    border: solid #DFFF00 2px;
+    text-decoration: none;
+    font-size: 20px;
+    margin:15px;
+    color: white;
+}
+#dropdown
+{
+    border-radius: 30px;
+    border: solid #DFFF00 2px;
+    width: 160px;
+    text-decoration: none;
+    margin:15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(12, 1, 1, 0);
+    color: white;
+    font-weight: 900;
+}
+.colorpick:hover
+{
+    background-color:#DFFF00;
+    color:black;
+    border-color: black;
+}
+.reset:hover{
+    background-color:#DFFF00;
+    color:black;
+    border-color: black;
+}
+.grid:hover{
+    background-color:#DFFF00;
+    color:black;
+    border-color: black;
+}
+#dropdown:hover{
+    background-color:#DFFF00;
+    color:black;
+    border-color: black;
+}
+#dropdown option
+{
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgba(12, 1, 1, 0);
+    color: #333;
+    cursor: pointer;
+}
+input
+{
+    width: 70px;
+    border:solid #DFFF00 2px;
+}
+.erase
+{
+    font-weight: 900;
+    font-size: 17px;
+    margin-top: 20px;
+    color: #DFFF00;
+    font-family: monospace;
+}
+.heading
+{
+    display:flex;
+}
+.one
+{
+    color: #DFFF00;
+}
+.two
+{
+    color: cadetblue;
+}
+.vertical h1
+{
+    color:#DFFF00;
+}
+.drop-container p,.colorpick p
+{
+    font-family:;
+    font-weight: 800;
+    color:cadetblue;
+}
+.info
+{
+
+    font-weight: 800;
+    font-size: 17px;
+    font-style: oblique;
+    color: white;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+}
